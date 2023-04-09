@@ -17,11 +17,11 @@ spec:
           image: 343755987196.dkr.ecr.us-east-1.amazonaws.com/eksproject:nginx
           ports:
             - containerPort: 80
+          imagePullPolicy: Always    
           env:
             - name: PORT
               value: "80"
-          imagePullSecrets:
-            - name: regcred      
+  
 ---
 apiVersion: v1
 kind: Service
