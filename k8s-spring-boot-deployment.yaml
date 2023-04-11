@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
         - name: springboot
-          image: 343755987196.dkr.ecr.us-east-1.amazonaws.com/eksproject:nginx
+          image: 343755987196.dkr.ecr.us-east-1.amazonaws.com/eksproject:sampath1
           ports:
             - containerPort: 80
           imagePullPolicy: Always    
